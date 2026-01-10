@@ -73,37 +73,6 @@ The notebook is designed for transformation practice and includes commonly used 
 
 ---
 
-### 7) Sales Calculation Logic
-The notebook includes formula-based sales calculations:
-
-- **Gross Amount** = quantity * unit_price  
-- **Discount Amount** = gross_amount * discount_pct/100  
-- **Tax Amount** = (gross_amount - discount_amount) * tax_pct/100  
-- ✅ **Total Sale** = gross_amount - discount_amount + tax_amount  
-
-This is used further to compute:
-- Total sale by state
-- Sorting highest revenue state
-
----
-
-## 🧪 Practice Exercises Included
-- Find null / blank customer names
-- Clean customer_name by replacing missing values
-- Compute total sales columns
-- Group and rank outputs (state revenue analysis)
-- Use `dense_rank` / ranking patterns
-
----
-
-## ⭐ Expected Outcome
-By completing this notebook, you will be confident in:
-- Reading CSV files in Spark correctly
-- Cleaning and transforming raw data
-- Writing PySpark transformations used in Medallion pipelines
-- Creating aggregated reporting outputs (Gold layer style)
-
----
 
 ## 📂 Notebook File
 `spark day 2.ipynb`
